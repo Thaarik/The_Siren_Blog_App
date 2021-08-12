@@ -1,0 +1,24 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 50px;
+}
+
+.underline {
+    max-width: 90px;
+    height: 3px;
+    background: #F08080 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top:-50px;
+    margin-left: 0;
+}
+
+.titletwo p{
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}

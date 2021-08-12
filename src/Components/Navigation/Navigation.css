@@ -1,0 +1,9 @@
+.navigation{
+    display: flex;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    /* background-color: aqua; */
+}
+.home, .Bollywood, .Technology,.Hollywood,.Fitness,.Food{
+    font-size: 18px;
+    font-weight: medium;
+}
