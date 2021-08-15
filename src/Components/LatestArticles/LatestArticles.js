@@ -1,7 +1,8 @@
 import LatestArticlesCard from './LatestArticlesCard.js'
 import './LatestArticles.css';
 const LatestArticles = (props)=>{
-    console.log()
+//    console.log(props.cardContent)
+  
     return(
         <>
               <div className="title">
@@ -9,10 +10,10 @@ const LatestArticles = (props)=>{
                 <div className="underline"></div>
             </div>
             <div className="car-container-2">
-                <LatestArticlesCard cardContent={props.cardContent.content} />
-                <LatestArticlesCard cardContent={props.cardContent.content} />
-                <LatestArticlesCard cardContent={props.cardContent.content} />
-                <LatestArticlesCard cardContent={props.cardContent.content} />
+                <LatestArticlesCard  content={props.cardContent} />
+                <LatestArticlesCard content={props.cardContent} />
+                <LatestArticlesCard content={props.cardContent} />
+                <LatestArticlesCard content={props.cardContent} />
             </div>
         </>
     )

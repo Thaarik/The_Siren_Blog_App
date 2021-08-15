@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navigation.css'
+import {NavLink} from 'react-router-dom'
 
 const Navigation=()=>{
     let home="Home";
@@ -10,15 +11,16 @@ const Navigation=()=>{
     let Food="Food";
 
     return(
-        
+        <>
         <div className="navigation">
-            <div className="home">{home}</div>
-            <div className="Bollywood">{Bollywood}</div>
-            <div className="Technology">{Technology}</div>
-            <div className="Hollywood">{Hollywood}</div>
-            <div className="Fitness">{Fitness}</div>
-            <div className="Food">{Food}</div>
+            <div ><NavLink className="home" to={{pathname:"/"}}>{home}</NavLink></div>
+            <div ><NavLink className="Bollywood" to={{pathname:"/Bollywood"}}>{Bollywood}</NavLink></div>
+            <div ><NavLink className="Technology" to={{pathname:"/Technology"}}>{Technology}</NavLink></div>
+            <div ><NavLink className="Hollywood" to={{pathname:"/Hollywood"}}>{Hollywood}</NavLink></div>
+            <div ><NavLink className="Fitness" to={{pathname:"/Fitness"}}>{Fitness}</NavLink></div>
+            <div ><NavLink className="Food" to={{pathname:"/Food"}}>{Food}</NavLink></div>
         </div>
+        </>
     );
 }
 

@@ -1,0 +1,35 @@
+.card3{
+    width:100%;
+    min-height:162px;
+    border-bottom: 3px solid #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.card3image{
+    width:104px;
+    height:101px;
+}
+.card3image img{
+
+    width:100%;
+    height:auto;
+}
+.card3-header-content{
+    padding-left:30px;
+    min-height: 162px;
+    max-width: 345px;
+}
+.card3-header p{
+    font-size: 26px;
+    line-height: 1em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card2details-info{
+    width:100%;
+    max-height:50px;
+    margin-top: 0;
+}

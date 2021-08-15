@@ -1,0 +1,19 @@
+.storiestitle p{
+font-size: 40px;
+margin-top: -150px;
+}
+.stories-container{
+    margin-top: 50px;
+    height:545px;
+    display: flex;
+    border-top:2.5px solid #F0F0F0 ;
+    border-bottom:2.5px solid #F0F0F0 ;
+    justify-content: center;
+    align-items: center;
+}
+.underline2{
+    width:2.5px;
+    height:400px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

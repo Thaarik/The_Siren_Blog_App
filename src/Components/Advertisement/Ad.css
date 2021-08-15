@@ -1,0 +1,19 @@
+.AD{
+    max-width: 452px;
+    height:1200px;
+    border: 1px solid black;
+    margin-top:170px;
+}
+.AD p{
+    color:black;
+    font-size: 40px;
+    font-weight: medium;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@media only screen and (max-width: 786px){
+    .AD{
+        display: none;
+    }
+}

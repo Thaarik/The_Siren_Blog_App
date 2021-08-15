@@ -1,7 +1,7 @@
 import TheLatestArticleCard from './TheLatestArticleCard.js'
 import './TheLatest.css'
 const TheLatestArticle=(props)=>{
-    // console.log(props.content.content[2])
+    // console.log(props.content)
     return(
         <>
             <div className="title">
@@ -9,9 +9,9 @@ const TheLatestArticle=(props)=>{
                 <div className="underline"></div>
             </div>
             <div className="card-container" >
-            <TheLatestArticleCard content={props.content.content[0]} />
-            <TheLatestArticleCard content={props.content.content[0]} />
-            <TheLatestArticleCard content={props.content.content[0]} />
+            <TheLatestArticleCard content={props.content[0]} />
+            <TheLatestArticleCard content={props.content[0]} />
+            <TheLatestArticleCard content={props.content[0]} />
             </div>
         </>
     )

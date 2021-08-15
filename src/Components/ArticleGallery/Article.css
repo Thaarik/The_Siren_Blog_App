@@ -1,0 +1,30 @@
+.gallery{
+    max-width:944px;
+    height: 557px;
+    position: relative;
+    color:white;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    padding:20px;
+  
+}
+.imagetitle{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.1em;
+}
+.imagesubtitle{
+    font-size:17px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+}

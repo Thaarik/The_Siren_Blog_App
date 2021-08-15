@@ -1,7 +1,6 @@
 import cardImage from "./../../Images/card.jpg"
 import './TheLatestArticleCard.css';
 const TheLatestArticleCard=(props)=>{
-    console.log(props.content.heading);
     return(
         <>
         <div className="card">
