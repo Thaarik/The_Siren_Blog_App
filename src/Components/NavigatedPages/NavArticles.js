@@ -4,7 +4,6 @@ const NavArticles=(props)=>{
     // console.log(props.content[0][1])
     return(
         <>
-
             <LatestArticlesCard content={props.content[0]} />
             <LatestArticlesCard content={props.content[0]} />
             <LatestArticlesCard content={props.content[0]} />

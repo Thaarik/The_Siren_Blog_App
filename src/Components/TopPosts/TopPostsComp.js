@@ -1,7 +1,7 @@
 import TopPost from './TopPost.js'
 import './TopPostsComp.css'
 // import toppoststyle from './TopPost.css'
-
+import {Link} from 'react-router-dom'
 const TopPostsComp=(props)=>{
     return(
         <>
@@ -10,10 +10,10 @@ const TopPostsComp=(props)=>{
             <div className="underline"></div>
         </div>
         <div className="toppost-grid">
-                <TopPost content={props.content}/>
-                <TopPost content={props.content}/>
-                <TopPost content={props.content}/>
-                <TopPost content={props.content}/>
+        <Link to="/blog" className="top" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
+        <Link to="/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
+        <Link to="/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
+        <Link to="/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
         </div>
         </>
     )

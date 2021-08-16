@@ -17,8 +17,10 @@ class MainHomePage extends Component{
     render(){
     return (
         <>
-        <Header />
-        <Navigation />
+        <div className="main-head">
+             <Header />
+            <Navigation />
+        </div>
         <MainHome />
         <TheLatestArticle content={this.state.content} />
         <div className="middle-part">

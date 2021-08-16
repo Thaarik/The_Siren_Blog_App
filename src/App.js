@@ -4,6 +4,7 @@ import NavigatedPages from './Components/NavigatedPages/NavigatedPages.js'
 import './App.css';
 import React, {Component} from 'react';
 import {BrowserRouter,Switch,Route} from 'react-router-dom'
+import Blog from './Components/Blog/Blog.js'
 class App extends Component {
   // state={
   //   content:Content
@@ -13,6 +14,7 @@ class App extends Component {
     <>
   <BrowserRouter>      
       <Switch>
+      <Route path="/blog" component={Blog} />
         <Route path="/:topic" component={NavigatedPages}/>
         <Route path="/" component={MainHomePage}/>
         

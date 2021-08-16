@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     padding-left:10px;
+    color:black;
  
 }
 .card2image{
@@ -22,20 +23,25 @@
 .card2content{
     margin-left:30px;
     min-width: 196px;
+    
 }
 .card2heading{
     font-size: 26px;
     line-height: 1.5em;
     font-weight: 600;
+    
+    
 }
 .card2body-content{
     font-size:17px;
     line-height: 1.5em;
     font-weight:400;
     color:#908D8D;
+   
 }
 .card2details-info{
     font-size: 17px;
+    /* text-decoration: double; */
 }
 .card2details-info-2{
     font-size: 17px;

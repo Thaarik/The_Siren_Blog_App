@@ -6,21 +6,20 @@
 .topposts p{
     font-size:40px;
 }
-.toppost-grid .card3:first-child{
+.toppost-grid .top .card3:first-child{
  flex-direction: column;
-
 }
-.toppost-grid .card3:first-child .card3image{
+.toppost-grid .top .card3:first-child .card3image{
     background-image:url("./../../Images/card3.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     width: 452px;
     height: 266px;
 }
-.toppost-grid .card3:first-child .card3image img{
+.toppost-grid .top .card3:first-child .card3image img{
     display:none;
 }
-.toppost-grid .card3:first-child .card3-header-content{
+.toppost-grid .top .card3:first-child .card3-header-content{
     display:flex;
     flex-direction: column;
     margin-left: 0px;
@@ -29,9 +28,9 @@
     /* justify-content: flex-start;
     align-items: flex-start; */
 }
-.toppost-grid .card3:first-child .card3-header-content .card2details{
+.toppost-grid .top .card3:first-child .card3-header-content .card2details{
     margin-left: 0;
 }
-.toppost-grid .card3:first-child .card3-header-content .card2details-info{
+.toppost-grid .top .card3:first-child .card3-header-content .card2details-info{
     margin:0;
 }

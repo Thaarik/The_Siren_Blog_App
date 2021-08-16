@@ -1,0 +1,32 @@
+.readCard-suggestion{
+    
+}
+.readCard-suggestion p{
+    color:#A2A2A2;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+.readCard{
+    max-height:493px;
+    max-width:452px;
+}
+.readCard-img{
+    width:452px;
+    height:293px;
+    /* border-radius: 7px 7px 0px 0px; */
+}
+.readCard-img img{
+    width:100%;
+    height:auto;
+    border-radius: 7px 7px 0px 0px;
+}
+.readCard-title p{
+font-size: 32px;
+color:#404040;
+font-weight: 400px;
+line-height: 1.2em;
+margin: 0;
+}
+.readCard-title{
+    margin-bottom: 20px;
+}

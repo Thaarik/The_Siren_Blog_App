@@ -26,10 +26,24 @@
   
   .div4 { grid-area: div4; }
 
-  @media only screen and (max-width: 1090px){
+  @media only screen and (max-width: 786px){
     .middle-part {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     }
+    .header{
+      margin-left:20px;
+    }
+  .main-head{
+    position: relative;
+  }
+
+.main-head .ham{
+  display:inline;
+position: absolute;
+right:5%;
+top:0;
+}
+
   }
   

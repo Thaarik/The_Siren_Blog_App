@@ -1,0 +1,118 @@
+.blog-heading{
+    /* max-width: 545px; */
+}
+.blog-heading p{
+    font-size:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.profile-info{
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.display-profile{
+    width:103px;
+    margin: 0;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+.display-profile img{
+    width:100%;
+    height:auto;
+    
+}
+.profile-name{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.profile-name .name{
+    font-size: 18px;
+    line-height: 1.2em;
+    margin:0;
+    
+}
+.profile-name .profile-date{
+    font-size:14px;
+    color:#A2A2A2;
+    line-height: 1.2em;
+}
+.profile-name .written{
+    display: none;
+}
+.social-media {
+    margin-right: 0;
+    padding-bottom:30px;
+}
+.social-media i{
+    font-size: 30px;
+    margin:5px;
+}
+.title-image,.screenshot{
+    max-width: 677px;
+}
+.title-image img,.screenshot img{
+    width:100%;
+    height:auto;
+}
+.article > p {
+    font-size: 21px;
+    line-height: 1.5em;
+    font-weight: 400;
+font-family: Georgia, 'Times New Roman', Times, serif;;
+}
+.tags{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.react-tag,.js-tag,.animation-tag{
+    min-width:70px;
+    height:33px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin:0 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.react-tag p,.js-tag p,.animation-tag p{
+    font-size:15px;
+    font-weight: 400;
+    text-align:left;
+    color:#A2A2A2;
+    line-height: 1em;
+    vertical-align: middle;
+    margin: 0;
+    padding:0 14px;
+}
+.clap{
+    display: flex;
+}
+.clap img{
+    margin:0;
+}
+.clap p{
+    font-size: 16px;
+    color:#939393;
+    margin: 0;
+    font-weight: 400;
+    margin-left: 14px;
+}
+div:nth-child(6){
+    border-top:1.5px solid #F0F0F0;
+    border-bottom:1.5px solid #F0F0F0;
+}
+
+div:nth-child(6) .profile-name .written {
+    display: unset;
+    color:#A2A2A2;
+    font-size:14px;
+    margin-top:0;
+    margin-left: 0;
+    line-height: 1em;
+
+    
+}

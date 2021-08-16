@@ -1,9 +1,11 @@
 import cardImage from './../../Images/card2.jpg'
 import './LatestArticlesCard.css'
+import {Link} from 'react-router-dom'
 const LatestArticlesCard=(props)=>{
 // console.log(props.cardContent)
     return(
         <>
+        <Link to="/blog" style={{textDecoration:'none'}}>
           <div className="card2">
             <div className="card2image">
                 <img src={cardImage} alt="cardimg"/>
@@ -17,6 +19,7 @@ const LatestArticlesCard=(props)=>{
             </div>
             </div>
         </div>
+        </Link>
         </>
     )
 }
