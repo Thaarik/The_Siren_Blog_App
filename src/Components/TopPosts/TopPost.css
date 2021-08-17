@@ -1,5 +1,5 @@
 .card3{
-    width:100%;
+    max-width:460px;
     min-height:162px;
     border-bottom: 3px solid #F0F0F0;
     display: flex;
@@ -10,9 +10,9 @@
 .card3image{
     width:104px;
     height:101px;
+    margin:0;
 }
 .card3image img{
-
     width:100%;
     height:auto;
 }
@@ -32,4 +32,9 @@
     width:100%;
     max-height:50px;
     margin-top: 0;
+}
+@media only screen and (max-width: 786px){
+    .card3-header p{
+    font-size: 21px;
+    }
 }

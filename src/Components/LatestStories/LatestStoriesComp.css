@@ -17,3 +17,18 @@ margin-top: -150px;
     background: #F0F0F0 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+@media only screen and (max-width: 786px) {
+    .storiestitle p{
+        font-size:21px;
+    }
+    .stories-container{
+        flex-direction: column;
+    }
+    .underline2{
+        background-color: #ffffff;
+    }
+    .stories-container{
+        border-top:none;
+        border-bottom:none;
+    }
+}

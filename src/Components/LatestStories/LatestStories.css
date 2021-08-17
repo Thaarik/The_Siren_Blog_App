@@ -1,7 +1,6 @@
 .storycard {
     max-width: 438px;
     height: 100%;
-
 }
 
 .story-heading p {
@@ -26,4 +25,15 @@
 .stories-card .card2details{
     padding-left: 26px;
     padding-right: 26px;
+}
+@media only screen and (max-width: 786px){
+    .story-heading p {
+    font-size:19px;
+    }
+    .story-content p {
+        font-size:14px;
+    }
+    .stories-card .card2details{
+        font-size:12px;
+    }
 }

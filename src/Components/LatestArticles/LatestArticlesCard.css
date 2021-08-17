@@ -1,6 +1,6 @@
 .card2{
     max-width: 946px;
-    min-height: 254px;
+    max-height: 300px;
     border-top: 3px solid #F0F0F0;
     display:flex;
     flex-direction: row;
@@ -8,6 +8,7 @@
     align-items: center;
     padding-left:10px;
     color:black;
+    padding-top:30px;
  
 }
 .card2image{
@@ -22,15 +23,13 @@
 }
 .card2content{
     margin-left:30px;
-    min-width: 196px;
+    /* max-width: 196px; */
     
 }
 .card2heading{
     font-size: 26px;
-    line-height: 1.5em;
-    font-weight: 600;
-    
-    
+    line-height: 1.2em;
+    font-weight: 600;    
 }
 .card2body-content{
     font-size:17px;
@@ -41,6 +40,8 @@
 }
 .card2details-info{
     font-size: 17px;
+    padding-top: 15px;
+    line-height: 1em;
     /* text-decoration: double; */
 }
 .card2details-info-2{
@@ -49,15 +50,21 @@
 opacity: 0.24;
 line-height: 1.5em;
 }
-@media only screen and (max-width: 1090px){
+@media only screen and (max-width: 786px){
   
     .card2heading{
         font-size: 20px;
+        margin:0;
     }
     .card2body-content{
         font-size: 14px;
+        
     }
     .card2details-info,.card2details-info-2{
         font-size:14px;
+    }
+    .card2image{
+        max-width: 114px;
+        min-height:123px;
     }
 }

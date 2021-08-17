@@ -55,3 +55,8 @@
 .more {
     font-size: 22px;
 }
+@media only screen and (max-width: 786px){
+    .RelatedReads-container {
+        flex-direction: column;
+    }
+}
