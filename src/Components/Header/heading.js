@@ -6,7 +6,7 @@ const Header=()=>{
     let verticalheader="The";
     return(
         <>
-        <Link to="/" className="blogHead" style={{textDecoration:'none',color:'black'}}><div className="header">
+        <Link to="/The_Siren_Blog_App" className="blogHead" style={{textDecoration:'none',color:'black'}}><div className="header">
             <div className="vertical">{verticalheader}</div>
             <div className="horizontal">{header}</div>
         </div></Link>
