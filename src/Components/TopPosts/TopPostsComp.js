@@ -10,10 +10,10 @@ const TopPostsComp=(props)=>{
             <div className="underline"></div>
         </div>
         <div className="toppost-grid">
-        <Link to="/blog" className="top" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
-        <Link to="/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
-        <Link to="/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
-        <Link to="/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
+        <Link to="/The_Siren_Blog_App/blog" className="top" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
+        <Link to="/The_Siren_Blog_App/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
+        <Link to="/The_Siren_Blog_App/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
+        <Link to="/The_Siren_Blog_App/blog" style={{textDecoration:'none',color:'black'}} ><TopPost content={props.content}/></Link>
         </div>
         </>
     )

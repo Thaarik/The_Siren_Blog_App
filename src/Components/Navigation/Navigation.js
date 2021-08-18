@@ -23,12 +23,12 @@ const Navigation=()=>{
        <div onClick={handleToggle} className="ham">
         {navbarOpen ? (<FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />):(<MdClear style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />)}</div>
         <div className={`navigation ${navbarOpen ? " showMenu":""}`}>
-            <div ><NavLink className="home" to={{pathname:"/home"}} onClick={()=>closeMenu()}>{home}</NavLink></div>
-            <div ><NavLink className="Bollywood" to={{pathname:"/Bollywood"}} onClick={()=>closeMenu()} exact>{Bollywood}</NavLink></div>
-            <div ><NavLink className="Technology" to={{pathname:"/Technology"}} onClick={()=>closeMenu()}>{Technology}</NavLink></div>
-            <div ><NavLink className="Hollywood" to={{pathname:"/Hollywood"}} onClick={()=>closeMenu()}>{Hollywood}</NavLink></div>
-            <div ><NavLink className="Fitness" to={{pathname:"/Fitness"}} onClick={()=>closeMenu()}>{Fitness}</NavLink></div>
-            <div ><NavLink className="Food" to={{pathname:"/Food"}} onClick={()=>closeMenu()}>{Food}</NavLink></div>
+            <div ><NavLink className="home" to={{pathname:"/The_Siren_Blog_App"}} onClick={()=>closeMenu()}>{home}</NavLink></div>
+            <div ><NavLink className="Bollywood" to={{pathname:"/The_Siren_Blog_App/Bollywood"}} onClick={()=>closeMenu()} exact>{Bollywood}</NavLink></div>
+            <div ><NavLink className="Technology" to={{pathname:"/The_Siren_Blog_App/Technology"}} onClick={()=>closeMenu()}>{Technology}</NavLink></div>
+            <div ><NavLink className="Hollywood" to={{pathname:"/The_Siren_Blog_App/Hollywood"}} onClick={()=>closeMenu()}>{Hollywood}</NavLink></div>
+            <div ><NavLink className="Fitness" to={{pathname:"/The_Siren_Blog_App/Fitness"}} onClick={()=>closeMenu()}>{Fitness}</NavLink></div>
+            <div ><NavLink className="Food" to={{pathname:"/The_Siren_Blog_App/Food"}} onClick={()=>closeMenu()}>{Food}</NavLink></div>
         
         </div>
         </>

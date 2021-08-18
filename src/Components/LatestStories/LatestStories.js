@@ -4,7 +4,7 @@ const LatestStories = (props)=>{
    
     return(
         <>
-          <Link to="/blog" className="top" style={{textDecoration:'none',color:'black'}} >
+          <Link to="/The_Siren_Blog_App/blog" className="top" style={{textDecoration:'none',color:'black'}} >
             <div className="stories-card">
                 <div className="story-heading">
                     <p>{props.story.heading}</p>

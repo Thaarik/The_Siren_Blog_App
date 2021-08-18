@@ -5,7 +5,7 @@ const LatestArticlesCard=(props)=>{
 // console.log(props.cardContent)
     return(
         <>
-        <Link to="/blog" style={{textDecoration:'none'}}>
+        <Link to="/The_Siren_Blog_App/blog" style={{textDecoration:'none'}}>
           <div className="card2">
             <div className="card2image">
                 <img src={cardImage} alt="cardimg"/>
