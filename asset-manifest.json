@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/The_Siren_Blog_App/static/css/main.31d6b844.chunk.css",
-    "main.js": "/The_Siren_Blog_App/static/js/main.a530f641.chunk.js",
-    "main.js.map": "/The_Siren_Blog_App/static/js/main.a530f641.chunk.js.map",
+    "main.css": "/The_Siren_Blog_App/static/css/main.3e03d65e.chunk.css",
+    "main.js": "/The_Siren_Blog_App/static/js/main.692fa0c9.chunk.js",
+    "main.js.map": "/The_Siren_Blog_App/static/js/main.692fa0c9.chunk.js.map",
     "runtime-main.js": "/The_Siren_Blog_App/static/js/runtime-main.df1de35e.js",
     "runtime-main.js.map": "/The_Siren_Blog_App/static/js/runtime-main.df1de35e.js.map",
     "static/js/2.59952911.chunk.js": "/The_Siren_Blog_App/static/js/2.59952911.chunk.js",
     "static/js/2.59952911.chunk.js.map": "/The_Siren_Blog_App/static/js/2.59952911.chunk.js.map",
     "index.html": "/The_Siren_Blog_App/index.html",
-    "static/css/main.31d6b844.chunk.css.map": "/The_Siren_Blog_App/static/css/main.31d6b844.chunk.css.map",
+    "static/css/main.3e03d65e.chunk.css.map": "/The_Siren_Blog_App/static/css/main.3e03d65e.chunk.css.map",
     "static/js/2.59952911.chunk.js.LICENSE.txt": "/The_Siren_Blog_App/static/js/2.59952911.chunk.js.LICENSE.txt",
     "static/media/CARD4.fa958751.jpg": "/The_Siren_Blog_App/static/media/CARD4.fa958751.jpg",
     "static/media/card.39f02c1b.jpg": "/The_Siren_Blog_App/static/media/card.39f02c1b.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.df1de35e.js",
     "static/js/2.59952911.chunk.js",
-    "static/css/main.31d6b844.chunk.css",
-    "static/js/main.a530f641.chunk.js"
+    "static/css/main.3e03d65e.chunk.css",
+    "static/js/main.692fa0c9.chunk.js"
   ]
 }
