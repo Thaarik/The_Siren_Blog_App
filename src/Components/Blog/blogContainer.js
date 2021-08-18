@@ -2,7 +2,7 @@ import './blogContainer.css'
 import DP from './BlogImages/dp.png'
 import titleImage from './BlogImages/titleImage.png'
 import screenshot from './BlogImages/screenshot.png'
-import share from './BlogImages/share.svg'
+// import share from './BlogImages/share.svg'
 import clap from './BlogImages/rythm.svg'
 const BlogContainer =()=>{
     return(
@@ -11,12 +11,14 @@ const BlogContainer =()=>{
                 <p>5 Ways to animate a React app.</p>
             </div>
             <div className="profile-info">
+            <div className="display-info">
                 <div className="display-profile">
                     <img src={DP} alt="display" />
                 </div>
                 <div className="profile-name">
                     <p className="name">Dmitry Nozhenko</p>
                     <p className="profile-date">Jan 28, 2019 · 10 min read</p>
+                </div>
                 </div>
                 <div className="social-media">
                 <i className="fab fa-facebook-square"></i>
@@ -48,6 +50,7 @@ const BlogContainer =()=>{
                 <p>9.3K claps</p>
             </div>
             <div className="profile-info">
+            <div className="display-info">
                 <div className="display-profile">
                     <img src={DP} alt="display" />
                 </div>
@@ -55,6 +58,7 @@ const BlogContainer =()=>{
                     <p className="written">WRITTEN BY</p>
                     <p className="name">Dmitry Nozhenko</p>
                     <p className="profile-date">Jan 28, 2019 · 10 min read</p>
+                </div>
                 </div>
             </div>
         </>

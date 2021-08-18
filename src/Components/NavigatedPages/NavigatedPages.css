@@ -24,3 +24,20 @@
   .navHeader-p{
       font-size: 40px;
   }
+
+  @media only screen and (max-width: 786px){
+    .nav-grid {
+      grid-template-columns:1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 8px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "navdiv1"
+      "navdiv1"
+      "navdiv1"
+      "navdiv1"
+      "navdiv2"
+      "navdiv2";
+    }
+    .navdiv3 { display:none; }
+  }

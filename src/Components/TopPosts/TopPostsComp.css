@@ -2,6 +2,7 @@
     max-width: 450px;
     display:flex;
     flex-direction: column;
+    
 }
 .topposts p{
     font-size:40px;
@@ -36,9 +37,15 @@
     margin:0;
 }
 @media only screen and (max-width: 786px){
+    .toppost-grid{
+        padding:10px;
+    }
     .toppost-grid .top .card3:first-child .card3image{
         background-position: center center;
         width: 306px;
        
+    }
+    .topposts p{
+        font-size:21px;
     }
 }

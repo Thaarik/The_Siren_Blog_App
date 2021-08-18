@@ -11,9 +11,11 @@ const RelatedReads =()=>{
                     <p>Related reads</p>
         </div>
         <Link to="/blog" style={{textDecoration:'none',color:'black'}}>
+            <div className="read-container">
             <div className="readCard-img">
                 <img src={image4} alt="title"/>
             </div>
+            <div className="read-moble-responsive">
             <div className="readCard-title">
                 <p>Joshua Tree Overnight Adventure</p>
             </div>
@@ -24,6 +26,8 @@ const RelatedReads =()=>{
                 <div className="profile-name">
                     <p className="name">Dmitry Nozhenko</p>
                     <p className="profile-date">Jan 28, 2019 · 10 min read</p>
+                </div>
+                </div>
                 </div>
                 </div>
                 </Link>

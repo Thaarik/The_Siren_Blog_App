@@ -1,5 +1,6 @@
-.readCard-suggestion{
-    
+.read-container{
+    display: flex;
+    flex-direction: column; 
 }
 .readCard-suggestion p{
     color:#A2A2A2;
@@ -9,15 +10,17 @@
 .readCard{
     max-height:493px;
     max-width:452px;
+    margin:10px;
 }
 .readCard-img{
     max-width:452px;
-    height:293px;
+    max-height:293px;
     /* border-radius: 7px 7px 0px 0px; */
 }
 .readCard-img img{
     width:100%;
     height:auto;
+    display: block;
     border-radius: 7px 7px 0px 0px;
 }
 .readCard-title p{
@@ -29,4 +32,39 @@ margin: 0;
 }
 .readCard-title{
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 786px){
+    .read-container{
+        flex-direction: row-reverse;
+        /* justify-items: stretch; */
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .readCard{
+        width:100%;
+        height:70px;
+    }
+    .readCard-suggestion,.read-container .read-moble-responsive .profile-info .profile-name .profile-date, .read-container .read-moble-responsive .profile-info .display-profile{
+        display:none;
+    }
+    .readCard-img{
+        width:78px;
+        height:56px;
+        margin:0;
+    }
+    .readCard-img img{
+            width:100%;
+            height:auto;
+            display: block;
+        border-radius: 0px;
+    }
+    .readCard-title p{
+        font-size: 15px;
+    }
+    .read-container .read-moble-responsive .profile-info .profile-name .name{
+        font-size:15px;
+        color:#939393;
+        margin-left:-10px;
+    }
 }
