@@ -23,6 +23,7 @@ margin-top: -150px;
     }
     .stories-container{
         flex-direction: column;
+        margin-top: 160px;
     }
     .underline2{
         background-color: #ffffff;

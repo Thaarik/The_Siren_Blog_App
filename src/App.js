@@ -17,6 +17,7 @@ class App extends Component {
       <Route path="/The_Siren_Blog_App/blog" component={Blog} />
         <Route path="/The_Siren_Blog_App/:topic" component={NavigatedPages}/>
         <Route path="/The_Siren_Blog_App" component={MainHomePage}/>
+        <Route path="/" component={MainHomePage}/>
         
       </Switch>
   </BrowserRouter>

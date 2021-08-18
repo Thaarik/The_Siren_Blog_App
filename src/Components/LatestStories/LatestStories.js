@@ -1,10 +1,10 @@
 import './LatestStories.css'
-import {Link} from 'react-router-dom'
+
 const LatestStories = (props)=>{
    
     return(
         <>
-          <Link to="/The_Siren_Blog_App/blog" className="top" style={{textDecoration:'none',color:'black'}} >
+         
             <div className="stories-card">
                 <div className="story-heading">
                     <p>{props.story.heading}</p>
@@ -17,7 +17,6 @@ const LatestStories = (props)=>{
             </div>
 
             </div>
-            </Link>
         </>
 
     )
