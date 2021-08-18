@@ -16,7 +16,7 @@ class App extends Component {
       <Switch>
       <Route path="/blog" component={Blog} />
         <Route path="/:topic" component={NavigatedPages}/>
-        <Route path="/" component={MainHomePage}/>
+        <Route path="/home" component={MainHomePage} exact/>
         
       </Switch>
   </BrowserRouter>
