@@ -54,7 +54,6 @@
 .container {
     max-width: 677px;
     padding:0 36.5px;
-    /* position: relative; */
 }
 
 .RelatedReads-container{
@@ -70,23 +69,59 @@
 }
 .info{
     display: inline-block;
-    max-width:200px;
+    width:200px;
     position: sticky;
     top:30%;
-    margin-left:-280px
+    left:0;
+    margin-left:-280px;
+}
+.info .clap{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    height:80px;
+}
+.info .clap img{
+    margin-left:10px;
+}
+.info .clap p{
+    /* margin-right:60px; */
+    font-size:14px;
 }
 .info .share{
     position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:80px;
+}
+.info .share img{
+    margin:0;
 }
 .info .share p{
     width:130px;
     display: inline;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    font-size:16px;
+    line-height: 1em;
+    margin:0;
+    font-size:14px;
     color:#939393;
+    font-weight:400;
+}
+
+@media only screen and (max-width: 1000px){
+    .info .clap p{
+        display:none;
+    }
+    .info .share{
+        justify-content: flex-start;
+    }
+    .info .share img{
+        margin-left:10px;
+    }
+    .info .share p{
+        display:none;
+    }
 }
 @media only screen and (max-width: 786px){
     .RelatedReads-container {
