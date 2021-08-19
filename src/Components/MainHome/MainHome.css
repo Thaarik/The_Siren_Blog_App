@@ -95,6 +95,7 @@
 @media only screen and (max-width: 1090px){
     .Title1{
         font-size: 30px;
+
     }
     .Title2,.Title3{
         bottom:60px;
@@ -112,6 +113,7 @@
         grid-template-columns: 1fr; 
         justify-content: center;
         align-items: center;  
+        gap:0;
     }
     .image2,.image3{
         display: none;

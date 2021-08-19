@@ -1,6 +1,6 @@
 .gallery{
     max-width:944px;
-    height: 557px;
+    max-height: 557px;
     position: relative;
     color:white;
 }
@@ -8,7 +8,7 @@
     width: 100%;
     height: auto;
     padding:20px;
-  
+    display:block;
 }
 .imagetitle{
     font-size: 40px;
@@ -27,4 +27,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 200;
+}
+
+@media only screen and (max-width: 1090px){
+    .imagetitle{
+        font-size: 24px;
+    }
+    .imagesubtitle{
+        font-size:14px;
+    }
 }
