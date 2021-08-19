@@ -51,20 +51,20 @@
   .div3 { grid-area: div3; }
   .div4 {display:none}
 
-  .header {
+  /* .header {
     margin-left: 20px;
-  }
+  } */
 
-  .main-head {
+  /* .main-head {
     position: relative;
-  }
+  } */
 
-  .main-head .ham {
+  /* .main-head .ham {
     display: inline;
     position: absolute;
     right: 5%;
     top: 0;
-  }
+  } */
   
 
 }

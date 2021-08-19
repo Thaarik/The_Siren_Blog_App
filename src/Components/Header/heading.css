@@ -1,7 +1,11 @@
 .header{
-    margin: 10px auto;
+    margin:0;
     display: flex;
-    max-width: 260px;
+    /* max-width:1440px; */
+    flex-direction: column;
+    /* justify-content: space-between;
+    align-items: center;
+    position: relative; */
 }
 .vertical{
     font-size: 32px;
@@ -17,14 +21,40 @@
 .GetStarted{
     display: none;
 }
+ .head-nav {
+    margin:0;
+}
+.ham{
+    width:25px;
+    height:16px;
+    display:none;
+}
+
 
 @media only screen and (max-width: 786px){
+    .header{
+        display: inline;
+    }
+    .logo{
+        display:inline;
+    }
+    .head-nav {
+        display:inline;
+    }
     .vertical{
-        font-size: 9px;
+        font-size: 12px;
         margin: 0;
     }
     .horizontal{
-        font-size:24px;
+        font-size:30px;
         margin:0;
     }
+    .ham {
+        display: inline;
+         position: absolute;
+         right: 5%;
+         /* top: 15px; */
+         z-index: 10;
+       }
+   
 }

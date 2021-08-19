@@ -1,5 +1,4 @@
 import Header from './../Header/heading.js'
-import Navigation from './../Navigation/Navigation.js'
 import MainHome from './../MainHome/MainHome.js'
 import TheLatestArticle from '../TheLatest/TheLatest.js'
 import LatestArticles from './../LatestArticles/LatestArticles.js'
@@ -17,10 +16,7 @@ class MainHomePage extends Component{
     render(){
     return (
         <>
-        <div className="main-head">
-             <Header />
-            <Navigation />
-        </div>
+        <Header />
         <MainHome />
         <TheLatestArticle content={this.state.content} />
         <div className="middle-part">

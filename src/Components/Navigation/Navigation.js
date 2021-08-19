@@ -1,34 +1,34 @@
 import React from 'react'
 import './Navigation.css'
 import {NavLink} from 'react-router-dom'
-import {useState} from 'react'
-import { MdClear } from "react-icons/md";
-import { FiMenu } from "react-icons/fi"
-const Navigation=()=>{
+
+
+const Navigation=(props)=>{
+    // console.log(props.navbar)
     let home="Home";
     let Bollywood="Bollywood";
     let Technology="Technology";
     let Hollywood="Hollywood";
     let Fitness="Fitness";
     let Food="Food";
-    const [navbarOpen,setNavbarOpen] = useState(true)
-    const handleToggle = () =>{
-        setNavbarOpen(prev => !prev)
-    }
+
+   
+    let setNavbarOpen =props.navbar;
     const closeMenu = () => {
-        setNavbarOpen(false)
+            setNavbarOpen=false;
+            console.log(setNavbarOpen)
       }
+    
     return(
         <>
-       <div onClick={handleToggle} className="ham">
-        {navbarOpen ? (<FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />):(<MdClear style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />)}</div>
-        <div className={`navigation ${navbarOpen ? " showMenu":""}`}>
-            <div ><NavLink className="home" to={{pathname:"/The_Siren_Blog_App"}} onClick={()=>closeMenu()}>{home}</NavLink></div>
-            <div ><NavLink className="Bollywood" to={{pathname:"/The_Siren_Blog_App/Bollywood"}} onClick={()=>closeMenu()} exact>{Bollywood}</NavLink></div>
-            <div ><NavLink className="Technology" to={{pathname:"/The_Siren_Blog_App/Technology"}} onClick={()=>closeMenu()}>{Technology}</NavLink></div>
-            <div ><NavLink className="Hollywood" to={{pathname:"/The_Siren_Blog_App/Hollywood"}} onClick={()=>closeMenu()}>{Hollywood}</NavLink></div>
-            <div ><NavLink className="Fitness" to={{pathname:"/The_Siren_Blog_App/Fitness"}} onClick={()=>closeMenu()}>{Fitness}</NavLink></div>
-            <div ><NavLink className="Food" to={{pathname:"/The_Siren_Blog_App/Food"}} onClick={()=>closeMenu()}>{Food}</NavLink></div>
+        <div className={`navigation ${setNavbarOpen ? " showMenu":""}`}>
+
+            <NavLink className="home" to={{pathname:"/The_Siren_Blog_App"}} onClick={()=>closeMenu()}>{home}</NavLink>
+            <NavLink className="Bollywood" to={{pathname:"/The_Siren_Blog_App/Bollywood"}} onClick={()=>closeMenu()}>{Bollywood}</NavLink>
+            <NavLink className="Technology" to={{pathname:"/The_Siren_Blog_App/Technology"}} onClick={()=>closeMenu()}>{Technology}</NavLink>
+            <NavLink className="Hollywood" to={{pathname:"/The_Siren_Blog_App/Hollywood"}} onClick={()=>closeMenu()}>{Hollywood}</NavLink>
+            <NavLink className="Fitness" to={{pathname:"/The_Siren_Blog_App/Fitness"}} onClick={()=>closeMenu()}>{Fitness}</NavLink>
+            <NavLink className="Food" to={{pathname:"/The_Siren_Blog_App/Food"}} onClick={()=>closeMenu()}>{Food}</NavLink>
         
         </div>
         </>

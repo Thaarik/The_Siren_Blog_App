@@ -1,6 +1,6 @@
 import './NavigatedPages.css'
 import Header from './../Header/heading.js'
-import Navigation from './../Navigation/Navigation'
+// import Navigation from './../Navigation/Navigation'
 import {useState} from 'react'
 import contentpost from './../../Content.json'
 import NavArticles from './NavArticles.js'
@@ -11,11 +11,10 @@ import './../Advertisement/Ad.css'
 
 const NavigatedPages =(props)=>{
 let content = useState(contentpost);
-console.log(props.match.params.topic);
     return(
         <>
             <Header />
-            <Navigation />
+            
             <div className="nav-grid">
                 <div className="navdiv1">
                     <div className="navHeader">
