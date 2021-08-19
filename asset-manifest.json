@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/The_Siren_Blog_App/static/css/main.f15cf1b1.chunk.css",
-    "main.js": "/The_Siren_Blog_App/static/js/main.692fa0c9.chunk.js",
-    "main.js.map": "/The_Siren_Blog_App/static/js/main.692fa0c9.chunk.js.map",
+    "main.css": "/The_Siren_Blog_App/static/css/main.6d6a7120.chunk.css",
+    "main.js": "/The_Siren_Blog_App/static/js/main.08006b7f.chunk.js",
+    "main.js.map": "/The_Siren_Blog_App/static/js/main.08006b7f.chunk.js.map",
     "runtime-main.js": "/The_Siren_Blog_App/static/js/runtime-main.df1de35e.js",
     "runtime-main.js.map": "/The_Siren_Blog_App/static/js/runtime-main.df1de35e.js.map",
-    "static/js/2.59952911.chunk.js": "/The_Siren_Blog_App/static/js/2.59952911.chunk.js",
-    "static/js/2.59952911.chunk.js.map": "/The_Siren_Blog_App/static/js/2.59952911.chunk.js.map",
+    "static/js/2.abb5357a.chunk.js": "/The_Siren_Blog_App/static/js/2.abb5357a.chunk.js",
+    "static/js/2.abb5357a.chunk.js.map": "/The_Siren_Blog_App/static/js/2.abb5357a.chunk.js.map",
     "index.html": "/The_Siren_Blog_App/index.html",
-    "static/css/main.f15cf1b1.chunk.css.map": "/The_Siren_Blog_App/static/css/main.f15cf1b1.chunk.css.map",
-    "static/js/2.59952911.chunk.js.LICENSE.txt": "/The_Siren_Blog_App/static/js/2.59952911.chunk.js.LICENSE.txt",
+    "static/css/main.6d6a7120.chunk.css.map": "/The_Siren_Blog_App/static/css/main.6d6a7120.chunk.css.map",
+    "static/js/2.abb5357a.chunk.js.LICENSE.txt": "/The_Siren_Blog_App/static/js/2.abb5357a.chunk.js.LICENSE.txt",
     "static/media/CARD4.fa958751.jpg": "/The_Siren_Blog_App/static/media/CARD4.fa958751.jpg",
     "static/media/card.39f02c1b.jpg": "/The_Siren_Blog_App/static/media/card.39f02c1b.jpg",
     "static/media/card2.89d5a61f.jpg": "/The_Siren_Blog_App/static/media/card2.89d5a61f.jpg",
@@ -19,12 +19,13 @@
     "static/media/pexels-mengliu-di-3064079.57c10218.jpg": "/The_Siren_Blog_App/static/media/pexels-mengliu-di-3064079.57c10218.jpg",
     "static/media/rythm.e2ac8e31.svg": "/The_Siren_Blog_App/static/media/rythm.e2ac8e31.svg",
     "static/media/screenshot.95d62df1.png": "/The_Siren_Blog_App/static/media/screenshot.95d62df1.png",
+    "static/media/share.a783c160.svg": "/The_Siren_Blog_App/static/media/share.a783c160.svg",
     "static/media/titleImage.3012ee73.png": "/The_Siren_Blog_App/static/media/titleImage.3012ee73.png"
   },
   "entrypoints": [
     "static/js/runtime-main.df1de35e.js",
-    "static/js/2.59952911.chunk.js",
-    "static/css/main.f15cf1b1.chunk.css",
-    "static/js/main.692fa0c9.chunk.js"
+    "static/js/2.abb5357a.chunk.js",
+    "static/css/main.6d6a7120.chunk.css",
+    "static/js/main.08006b7f.chunk.js"
   ]
 }
