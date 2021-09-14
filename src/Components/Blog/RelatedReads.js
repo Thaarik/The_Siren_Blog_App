@@ -10,7 +10,7 @@ const RelatedReads =()=>{
         <div className="readCard-suggestion">
                     <p>Related reads</p>
         </div>
-        <Link to="/blog" style={{textDecoration:'none',color:'black'}}>
+        <Link to="/The_Siren_Blog_App/blog" style={{textDecoration:'none',color:'black'}}>
             <div className="read-container">
             <div className="readCard-img">
                 <img src={image4} alt="title"/>
