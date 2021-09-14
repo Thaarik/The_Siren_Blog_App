@@ -19,7 +19,16 @@ app.get('/api/contents',(req,res)=>{
             "id":2,
             "heading":"Catch waves with an adventure guide",
             "content":"Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces"
-        }
+        },
+        {
+            "id":3,
+            "heading":"Title of verticle gallery"
+        },
+        {
+            "id":4,
+            "heading":"The Sound cloud You Loved is doomed"
+        },
+
     ];
     res.json(contents)
 })

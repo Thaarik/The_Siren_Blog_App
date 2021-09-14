@@ -17,14 +17,13 @@ function MainHomePage(){
         const fetchPosts = async ()=>{
             const res =await axios.get("/api/contents")
             setContent(res.data)
-            console.log(res.data)
         }
         fetchPosts()
     },[])
     return (
         <>
         <Header />
-        <MainHome />
+        {content?<MainHome cardContent={content}/>:""}
         {content?<><TheLatestArticle content={content} />
         <div className="middle-part">
             <div className="div1"><LatestArticles cardContent={content} /></div>

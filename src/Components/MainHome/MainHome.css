@@ -74,14 +74,15 @@
     font-weight: medium;
     margin-left: 20px;
     max-height: 60px;
+    line-height: 1em;
 }
-.Title2#two,.Title3#four{
+/* .Title2#two,.Title3#four{
     bottom:40px;
-}
+} */
 
 
 .Subtitle{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     position:absolute;
     bottom:-20px;
     left:0;
@@ -95,7 +96,6 @@
 @media only screen and (max-width: 1090px){
     .Title1{
         font-size: 30px;
-
     }
     .Title2,.Title3{
         bottom:60px;
