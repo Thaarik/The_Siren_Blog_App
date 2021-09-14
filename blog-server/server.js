@@ -3,7 +3,7 @@ const app = express()
 const PORT = 3001;
 
 
-app .get('/api/contents',(req,res)=>{
+app.get('/api/contents',(req,res)=>{
     const contents=[
         {
             "id":0,
